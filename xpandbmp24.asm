@@ -48,7 +48,7 @@ xpandbmp24:
     mov     eax, 	width
     imul    eax, 	3
     add     eax, 	3
-    and     eax, 	
+    and     eax, 	0x0fffffffc
     sub     esp,	24
 
     push    ebx                 			; saving conntent of used registers
